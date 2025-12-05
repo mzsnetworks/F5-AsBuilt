@@ -1,0 +1,8 @@
+devices:
+  - name: FLL2BLBI07V
+    host: "https://10.0.99.90"
+    description: "Test F5 in FLL2"
+
+  - name: FLL2BLBI08V
+    host: "https://10.0.99.91"
+    description: "DEV F5 in FLL2"
