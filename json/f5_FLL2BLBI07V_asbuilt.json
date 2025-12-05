@@ -1,0 +1,1062 @@
+{
+  "device_report": {
+    "hostname": "FLL2BLBI07V.chewy.local",
+    "version": "17.1.3",
+    "ha_status": "active",
+    "sync_group": "unknown",
+    "partitions": [
+      "Common"
+    ]
+  },
+  "virtual_servers": [
+    {
+      "name": "vs_alteryx_dev.chewy.local.http",
+      "destination_ip": "10.0.2.149",
+      "destination_port": "80",
+      "pool": "pool_alteryxdev.chewy.local",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_alteryx_dev.chewy.local.https",
+      "destination_ip": "10.0.2.149",
+      "destination_port": "443",
+      "pool": "pool_alteryxdev.chewy.local",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": []
+    },
+    {
+      "name": "vs_cfs-test.chewy.com.http",
+      "destination_ip": "10.0.65.77",
+      "destination_port": "80",
+      "pool": "pool_cfs-test.chewy.com",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_cfs-test.chewy.com.https",
+      "destination_ip": "10.0.65.77",
+      "destination_port": "443",
+      "pool": "pool_cfs-test.chewy.com",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "cfs-test.chewy.com"
+      ]
+    },
+    {
+      "name": "vs_dev_nimbus.http",
+      "destination_ip": "10.0.116.116",
+      "destination_port": "80",
+      "pool": "pool_dev_nimbus",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_dev_nimbus.https",
+      "destination_ip": "10.0.116.116",
+      "destination_port": "443",
+      "pool": "pool_dev_nimbus",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": []
+    },
+    {
+      "name": "vs_dev_plato.http",
+      "destination_ip": "10.0.101.5",
+      "destination_port": "80",
+      "pool": "pool_dev_plato",
+      "profiles": [],
+      "persistence": [],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_dev_plato.https",
+      "destination_ip": "10.0.101.5",
+      "destination_port": "443",
+      "pool": "pool_dev_plato",
+      "profiles": [],
+      "persistence": [],
+      "irules": []
+    },
+    {
+      "name": "vs_fsvc_print_service_dev.http",
+      "destination_ip": "10.50.10.83",
+      "destination_port": "80",
+      "pool": "pool_fsvc_print_service_dev",
+      "profiles": [],
+      "persistence": [],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_fsvc_print_service_dev.https",
+      "destination_ip": "10.50.10.83",
+      "destination_port": "443",
+      "pool": "pool_fsvc_print_service_dev",
+      "profiles": [],
+      "persistence": [],
+      "irules": []
+    },
+    {
+      "name": "vs_fsvc_print_service_stg.http",
+      "destination_ip": "10.0.143.254",
+      "destination_port": "80",
+      "pool": "pool_fsvc_print_service_stg",
+      "profiles": [],
+      "persistence": [],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_fsvc_print_service_stg.https",
+      "destination_ip": "10.0.143.254",
+      "destination_port": "443",
+      "pool": "pool_fsvc_print_service_stg",
+      "profiles": [],
+      "persistence": [],
+      "irules": []
+    },
+    {
+      "name": "vs_sailpoint_iq_dev",
+      "destination_ip": "10.0.3.77",
+      "destination_port": "5053",
+      "pool": "pool_sailpoint_iq_dev",
+      "profiles": [],
+      "persistence": [
+        "source_addr"
+      ],
+      "irules": []
+    },
+    {
+      "name": "vs_wms_cart",
+      "destination_ip": "10.50.10.99",
+      "destination_port": "10202",
+      "pool": "pool_wms_magic_logic_stg",
+      "profiles": [],
+      "persistence": [],
+      "irules": []
+    },
+    {
+      "name": "vs_wms_cls_tst",
+      "destination_ip": "10.0.33.22",
+      "destination_port": "6010",
+      "pool": "pool_wms_cls_tst",
+      "profiles": [],
+      "persistence": [],
+      "irules": []
+    },
+    {
+      "name": "vs_wms_otm.http",
+      "destination_ip": "10.0.65.75",
+      "destination_port": "80",
+      "pool": "pool_wms_otm",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_wms_otm.https",
+      "destination_ip": "10.0.65.75",
+      "destination_port": "443",
+      "pool": "pool_wms_otm",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "wms-test.chewy.com"
+      ]
+    },
+    {
+      "name": "vs_wms_test.http",
+      "destination_ip": "10.0.65.76",
+      "destination_port": "80",
+      "pool": "pool_wms_test",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "_sys_https_redirect"
+      ]
+    },
+    {
+      "name": "vs_wms_test.https",
+      "destination_ip": "10.0.65.76",
+      "destination_port": "443",
+      "pool": "pool_wms_test",
+      "profiles": [],
+      "persistence": [
+        "cookie"
+      ],
+      "irules": [
+        "wms-test.chewy.local"
+      ]
+    },
+    {
+      "name": "vs_wmsrf-stg.chewy.local",
+      "destination_ip": "10.50.10.76",
+      "destination_port": "23",
+      "pool": "pool_wmsrf-stg.chewy.local",
+      "profiles": [],
+      "persistence": [],
+      "irules": []
+    }
+  ],
+  "pools": [
+    {
+      "name": "pool_alteryxdev.chewy.local",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FAYX01:80",
+          "address": "10.0.2.67",
+          "state": "up",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_cfs-test.chewy.com",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FHJIS02TST:80",
+          "address": "10.50.10.56%1",
+          "state": "up",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_dev_nimbus",
+      "lb_method": "round-robin",
+      "monitor": "/Common/https",
+      "members": [
+        {
+          "name": "FLL2APPC01:9440",
+          "address": "10.0.116.100",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_dev_plato",
+      "lb_method": "round-robin",
+      "monitor": "/Common/tcp",
+      "members": [
+        {
+          "name": "FLL2BDOK01:8001",
+          "address": "10.0.101.4",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2BDOK01:8002",
+          "address": "10.0.101.4",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_fsvc_print_service_dev",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "ps-cluster-dev.fsvc.chewy.local:32001",
+          "address": "10.50.10.38",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_fsvc_print_service_stg",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "ps-cluster-stg.fsvc.chewy.local:32001",
+          "address": "10.0.143.60",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_sailpoint_iq_dev",
+      "lb_method": "round-robin",
+      "monitor": "/Common/tcp",
+      "members": [
+        {
+          "name": "FLL2ASPN01:5051",
+          "address": "10.0.3.75",
+          "state": "user-down",
+          "session": "user-disabled"
+        },
+        {
+          "name": "FLL2ASPN01:5053",
+          "address": "10.0.3.75",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2ASPN02:5051",
+          "address": "10.0.3.76",
+          "state": "user-down",
+          "session": "user-disabled"
+        },
+        {
+          "name": "FLL2ASPN02:5053",
+          "address": "10.0.3.76",
+          "state": "user-down",
+          "session": "user-disabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wms_cart",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FHJCSC01:10202",
+          "address": "10.50.10.20",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FHJCSC02:10202",
+          "address": "10.50.10.21",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FHJCSC03:10202",
+          "address": "10.50.10.22",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FHJCSC04:10202",
+          "address": "10.50.10.23",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wms_cls_tst",
+      "lb_method": "round-robin",
+      "monitor": "/Common/tcp",
+      "members": [
+        {
+          "name": "FLL2FCLS01TST:6010",
+          "address": "10.50.10.40",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FCLS02TST:6010",
+          "address": "10.50.10.41",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wms_magic_logic_stg",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FHJC01STG:10202",
+          "address": "10.50.10.100",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FHJC02STG:10202",
+          "address": "10.50.10.101",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FHJC03STG:10202",
+          "address": "10.50.10.112",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FHJC04STG:10202",
+          "address": "10.50.10.113",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wms_otm",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FHJIS02TST:80",
+          "address": "10.50.10.56%1",
+          "state": "up",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wms_test",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FHJA10TST:80",
+          "address": "10.50.10.53%1",
+          "state": "up",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wms_test_s1",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FHJA10TST:80",
+          "address": "10.50.10.53%1",
+          "state": "up",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wms_test_s2",
+      "lb_method": "round-robin",
+      "monitor": "/Common/http",
+      "members": [
+        {
+          "name": "FLL2FHJA10TST:80",
+          "address": "10.50.10.53%1",
+          "state": "up",
+          "session": "monitor-enabled"
+        }
+      ]
+    },
+    {
+      "name": "pool_wmsrf-stg.chewy.local",
+      "lb_method": "round-robin",
+      "monitor": "/Common/tcp",
+      "members": [
+        {
+          "name": "FLL2FHJT11STG:23",
+          "address": "10.50.10.73",
+          "state": "down",
+          "session": "monitor-enabled"
+        },
+        {
+          "name": "FLL2FHJT12STG:23",
+          "address": "10.50.10.74",
+          "state": "down",
+          "session": "monitor-enabled"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "FLL2APPC01",
+      "address": "10.0.116.100",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2ASPN01",
+      "address": "10.0.3.75",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2ASPN02",
+      "address": "10.0.3.76",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2BDOK01",
+      "address": "10.0.101.4",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FAYX01",
+      "address": "10.0.2.67",
+      "state": "up",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FCLS01TST",
+      "address": "10.50.10.40",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FCLS02TST",
+      "address": "10.50.10.41",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJA10TST",
+      "address": "10.50.10.53%1",
+      "state": "up",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJC01STG",
+      "address": "10.50.10.100",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJC02STG",
+      "address": "10.50.10.101",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJC03STG",
+      "address": "10.50.10.112",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJC04STG",
+      "address": "10.50.10.113",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJCSC01",
+      "address": "10.50.10.20",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJCSC02",
+      "address": "10.50.10.21",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJCSC03",
+      "address": "10.50.10.22",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJCSC04",
+      "address": "10.50.10.23",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJIS02TST",
+      "address": "10.50.10.56%1",
+      "state": "up",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJT11STG",
+      "address": "10.50.10.73",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "FLL2FHJT12STG",
+      "address": "10.50.10.74",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "ps-cluster-dev.fsvc.chewy.local",
+      "address": "10.50.10.38",
+      "state": "down",
+      "session": "monitor-enabled"
+    },
+    {
+      "name": "ps-cluster-stg.fsvc.chewy.local",
+      "address": "10.0.143.60",
+      "state": "down",
+      "session": "monitor-enabled"
+    }
+  ],
+  "monitors": [
+    {
+      "name": "http",
+      "partition": "Common",
+      "type": "http",
+      "fullPath": "/Common/http"
+    },
+    {
+      "name": "http_head_f5",
+      "partition": "Common",
+      "type": "http",
+      "fullPath": "/Common/http_head_f5"
+    },
+    {
+      "name": "https",
+      "partition": "Common",
+      "type": "https",
+      "fullPath": "/Common/https"
+    },
+    {
+      "name": "https_443",
+      "partition": "Common",
+      "type": "https",
+      "fullPath": "/Common/https_443"
+    },
+    {
+      "name": "https_head_f5",
+      "partition": "Common",
+      "type": "https",
+      "fullPath": "/Common/https_head_f5"
+    },
+    {
+      "name": "standard_ap_ai_csd_ati_monitor_asia_ne1",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_ap_ai_csd_ati_monitor_asia_ne1"
+    },
+    {
+      "name": "standard_ap_ai_csd_ati_monitor_asia_se2",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_ap_ai_csd_ati_monitor_asia_se2"
+    },
+    {
+      "name": "standard_ap_ai_csd_ati_monitor_aus",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_ap_ai_csd_ati_monitor_aus"
+    },
+    {
+      "name": "standard_ap_ai_csd_ati_monitor_ca",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_ap_ai_csd_ati_monitor_ca"
+    },
+    {
+      "name": "standard_ap_ai_csd_ati_monitor_eu",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_ap_ai_csd_ati_monitor_eu"
+    },
+    {
+      "name": "standard_ap_ai_csd_ati_monitor_us",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_ap_ai_csd_ati_monitor_us"
+    },
+    {
+      "name": "standard_bd_monitor_apac",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_bd_monitor_apac"
+    },
+    {
+      "name": "standard_bd_monitor_emea",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_bd_monitor_emea"
+    },
+    {
+      "name": "standard_bd_monitor_mobileapac",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_bd_monitor_mobileapac"
+    },
+    {
+      "name": "standard_bd_monitor_mobileemea",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_bd_monitor_mobileemea"
+    },
+    {
+      "name": "standard_bd_monitor_mobilelatm",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_bd_monitor_mobilelatm"
+    },
+    {
+      "name": "standard_bd_monitor_mobileus",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_bd_monitor_mobileus"
+    },
+    {
+      "name": "standard_bd_monitor_us",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/standard_bd_monitor_us"
+    },
+    {
+      "name": "tcp",
+      "partition": "Common",
+      "type": "tcp",
+      "fullPath": "/Common/tcp"
+    },
+    {
+      "name": "gateway_icmp",
+      "partition": "Common",
+      "type": "gateway-icmp",
+      "fullPath": "/Common/gateway_icmp"
+    },
+    {
+      "name": "icmp",
+      "partition": "Common",
+      "type": "icmp",
+      "fullPath": "/Common/icmp"
+    }
+  ],
+  "irules": [
+    {
+      "name": "_sys_APM_ExchangeSupport_OA_BasicAuth",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_APM_ExchangeSupport_OA_BasicAuth"
+    },
+    {
+      "name": "_sys_APM_ExchangeSupport_OA_NtlmAuth",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_APM_ExchangeSupport_OA_NtlmAuth"
+    },
+    {
+      "name": "_sys_APM_ExchangeSupport_helper",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_APM_ExchangeSupport_helper"
+    },
+    {
+      "name": "_sys_APM_ExchangeSupport_main",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_APM_ExchangeSupport_main"
+    },
+    {
+      "name": "_sys_APM_MS_Office_OFBA_Support",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_APM_MS_Office_OFBA_Support"
+    },
+    {
+      "name": "_sys_APM_Office365_SAML_BasicAuth",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_APM_Office365_SAML_BasicAuth"
+    },
+    {
+      "name": "_sys_APM_activesync",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_APM_activesync"
+    },
+    {
+      "name": "_sys_auth_krbdelegate",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_auth_krbdelegate"
+    },
+    {
+      "name": "_sys_auth_ldap",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_auth_ldap"
+    },
+    {
+      "name": "_sys_auth_radius",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_auth_radius"
+    },
+    {
+      "name": "_sys_auth_ssl_cc_ldap",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_auth_ssl_cc_ldap"
+    },
+    {
+      "name": "_sys_auth_ssl_crldp",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_auth_ssl_crldp"
+    },
+    {
+      "name": "_sys_auth_ssl_ocsp",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_auth_ssl_ocsp"
+    },
+    {
+      "name": "_sys_auth_tacacs",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_auth_tacacs"
+    },
+    {
+      "name": "_sys_https_redirect",
+      "partition": "Common",
+      "fullPath": "/Common/_sys_https_redirect"
+    },
+    {
+      "name": "cfs-test.chewy.com",
+      "partition": "Common",
+      "fullPath": "/Common/cfs-test.chewy.com"
+    },
+    {
+      "name": "wms-test.chewy.com",
+      "partition": "Common",
+      "fullPath": "/Common/wms-test.chewy.com"
+    },
+    {
+      "name": "wms-test.chewy.local",
+      "partition": "Common",
+      "fullPath": "/Common/wms-test.chewy.local"
+    }
+  ],
+  "ssl_profiles": [
+    {
+      "name": "alteryxdev.chewy.local",
+      "partition": "Common",
+      "fullPath": "/Common/alteryxdev.chewy.local",
+      "cert": "/Common/alteryxdev.chewy.local.crt",
+      "chain": "/Common/chewy.local_ca_bundle.crt"
+    },
+    {
+      "name": "cfs-test.chewy.com",
+      "partition": "Common",
+      "fullPath": "/Common/cfs-test.chewy.com",
+      "cert": "/Common/cfs-test.chewy.com.crt",
+      "chain": "/Common/cfs-test.chewy.com.crt"
+    },
+    {
+      "name": "clientssl",
+      "partition": "Common",
+      "fullPath": "/Common/clientssl",
+      "cert": "/Common/default.crt",
+      "chain": "none"
+    },
+    {
+      "name": "clientssl-insecure-compatible",
+      "partition": "Common",
+      "fullPath": "/Common/clientssl-insecure-compatible",
+      "cert": "/Common/default.crt",
+      "chain": "none"
+    },
+    {
+      "name": "clientssl-quic",
+      "partition": "Common",
+      "fullPath": "/Common/clientssl-quic",
+      "cert": "/Common/default.crt",
+      "chain": "none"
+    },
+    {
+      "name": "clientssl-secure",
+      "partition": "Common",
+      "fullPath": "/Common/clientssl-secure",
+      "cert": "/Common/default.crt",
+      "chain": "none"
+    },
+    {
+      "name": "crypto-server-default-clientssl",
+      "partition": "Common",
+      "fullPath": "/Common/crypto-server-default-clientssl",
+      "cert": "/Common/default.crt",
+      "chain": "none"
+    },
+    {
+      "name": "splitsession-default-clientssl",
+      "partition": "Common",
+      "fullPath": "/Common/splitsession-default-clientssl",
+      "cert": "/Common/default.crt",
+      "chain": "none"
+    },
+    {
+      "name": "star.chewy.local",
+      "partition": "Common",
+      "fullPath": "/Common/star.chewy.local",
+      "cert": "/Common/star.chewy.local.crt",
+      "chain": "/Common/star.chewy.local.crt"
+    },
+    {
+      "name": "star_chain.chewy.local",
+      "partition": "Common",
+      "fullPath": "/Common/star_chain.chewy.local",
+      "cert": "/Common/star.chewy.local.crt",
+      "chain": "/Common/chewy.local_ca_bundle.crt"
+    },
+    {
+      "name": "wms-test.chewy.com",
+      "partition": "Common",
+      "fullPath": "/Common/wms-test.chewy.com",
+      "cert": "/Common/wms-test.chewy.com.crt",
+      "chain": "/Common/wms-test.chewy.com.crt"
+    },
+    {
+      "name": "wom-default-clientssl",
+      "partition": "Common",
+      "fullPath": "/Common/wom-default-clientssl",
+      "cert": "/Common/default.crt",
+      "chain": "none"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "/Common/alteryxdev.chewy.local.crt",
+      "partition": "Common",
+      "fullPath": "/Common/alteryxdev.chewy.local.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/ca-bundle.crt",
+      "partition": "Common",
+      "fullPath": "/Common/ca-bundle.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/cfs-test.chewy.com.crt",
+      "partition": "Common",
+      "fullPath": "/Common/cfs-test.chewy.com.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/chewy.local_ca_bundle.crt",
+      "partition": "Common",
+      "fullPath": "/Common/chewy.local_ca_bundle.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/default.crt",
+      "partition": "Common",
+      "fullPath": "/Common/default.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/f5-ca-bundle.crt",
+      "partition": "Common",
+      "fullPath": "/Common/f5-ca-bundle.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/f5-irule.crt",
+      "partition": "Common",
+      "fullPath": "/Common/f5-irule.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/f5_api_com.crt",
+      "partition": "Common",
+      "fullPath": "/Common/f5_api_com.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/geocert_ca_bundle.crt",
+      "partition": "Common",
+      "fullPath": "/Common/geocert_ca_bundle.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/star.chewy.local.crt",
+      "partition": "Common",
+      "fullPath": "/Common/star.chewy.local.crt",
+      "expiration": "unknown"
+    },
+    {
+      "name": "/Common/wms-test.chewy.com.crt",
+      "partition": "Common",
+      "fullPath": "/Common/wms-test.chewy.com.crt",
+      "expiration": "unknown"
+    }
+  ],
+  "usage": {
+    "irule_usage": {
+      "_sys_https_redirect": [
+        "vs_alteryx_dev.chewy.local.http",
+        "vs_cfs-test.chewy.com.http",
+        "vs_dev_nimbus.http",
+        "vs_dev_plato.http",
+        "vs_fsvc_print_service_dev.http",
+        "vs_fsvc_print_service_stg.http",
+        "vs_wms_otm.http",
+        "vs_wms_test.http"
+      ],
+      "cfs-test.chewy.com": [
+        "vs_cfs-test.chewy.com.https"
+      ],
+      "wms-test.chewy.com": [
+        "vs_wms_otm.https"
+      ],
+      "wms-test.chewy.local": [
+        "vs_wms_test.https"
+      ]
+    },
+    "monitor_usage": {
+      "http": [
+        "pool_alteryxdev.chewy.local",
+        "pool_cfs-test.chewy.com",
+        "pool_fsvc_print_service_dev",
+        "pool_fsvc_print_service_stg",
+        "pool_wms_cart",
+        "pool_wms_magic_logic_stg",
+        "pool_wms_otm",
+        "pool_wms_test",
+        "pool_wms_test_s1",
+        "pool_wms_test_s2"
+      ],
+      "https": [
+        "pool_dev_nimbus"
+      ],
+      "tcp": [
+        "pool_dev_plato",
+        "pool_sailpoint_iq_dev",
+        "pool_wms_cls_tst",
+        "pool_wmsrf-stg.chewy.local"
+      ]
+    },
+    "ssl_profile_usage": {},
+    "cert_usage": {
+      "alteryxdev.chewy.local.crt": [],
+      "cfs-test.chewy.com.crt": [],
+      "default.crt": [],
+      "star.chewy.local.crt": [],
+      "wms-test.chewy.com.crt": []
+    }
+  }
+}
