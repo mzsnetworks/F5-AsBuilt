@@ -1,4 +1,7 @@
-# F5 As-Built Generator
+# F5 As-Built Generator 🚀
+
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-GNU-green)](LICENSE)
 
 This toolkit generates standardized **As-Built documentation** for F5 BIG‑IP devices using iControl REST.
 
@@ -345,3 +348,10 @@ Some ideas you can add later without changing the overall design:
 For now, the current setup gives you a predictable, repeatable pipeline:
 
 **F5 → JSON → Markdown / Excel** with a stable schema and clear outputs.
+
+## 📜 License
+F5 As-Built Generator is licensed under the **GNU General Public License (GPL)**.
+
+---
+© MZS Networks, LLC — Confidential & Proprietary  
+Internal Use Only — Do Not Distribute
